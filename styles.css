@@ -44,8 +44,20 @@ body, html {
     .mobile-menu {
        display: none;
     }
+
+    .hamburger, .close {
+        font-size: 24px;
+        background: none;
+        border: none;
+        color: brown;
+        cursor: pointer;
+        display: none;
+    }
     
     @media (max-width: 768px) {    /*resolução 768 - tablet pra baixo*/
+       html {
+        font-size: 12px;
+       } 
         .nav-links-desktop {
             display: none;
         }
@@ -53,5 +65,4 @@ body, html {
         .hamburger {
             display: block;
         }
-
     }
