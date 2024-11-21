@@ -87,6 +87,11 @@ body, html {
         margin-top: 20px;
     }
 
+    .flex {
+        display: flex;
+    }
+
+
     @media (max-width: 768px) {    /*resolução 768 - tablet pra baixo*/
        html {
         font-size: 12px;
