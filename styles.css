@@ -42,6 +42,16 @@ body, html {
     }
 
     .mobile-menu {
-        display: none;
+       display: none;
     }
     
+    @media (max-width: 768px) {    /*resolução 768 - tablet pra baixo*/
+        .nav-links-desktop {
+            display: none;
+        }
+
+        .hamburger {
+            display: block;
+        }
+
+    }
