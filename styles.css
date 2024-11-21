@@ -43,7 +43,7 @@ body, html {
     }
 
     .mobile-menu {
-       display: flex;
+       display: none;
        position: fixed;
        top: 0;
        right: 0;
@@ -78,8 +78,7 @@ body, html {
         border: none;
         color: brown;
         cursor: pointer;
-         /*display: none; */
-    }
+}
     
     .close {
         align-self: end;
